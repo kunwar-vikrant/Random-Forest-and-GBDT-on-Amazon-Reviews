@@ -1,12 +1,23 @@
-# <p align="center">Random Forest and GBDT </p>
-
+<p align="center">Random Forest and GBDT Analysis</p>
 <p align="center">
   <img width="460" height="300" src="https://cdn-images-1.medium.com/max/1554/1*i0o8mjFfCn-uD79-F1Cqkw.png">
 </p>
+Overview
+This notebook provides an in-depth analysis of the Random Forest and Gradient Boosted Decision Trees (GBDT) algorithms applied to the Amazon Fine Food Reviews dataset. This dataset, which spans more than a decade of customer feedback up until October 2012, includes a comprehensive collection of approximately 500,000 reviews. Each review provides detailed insights including product information, user details, ratings, and the actual review text.
 
-This is a notebook which demonstrates results of applying Random Forest and GBDT Algorithm on the dataset which consists of reviews of
-fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. 
-Reviews include product and user information, ratings, and a plain text review. 
+Dataset Details
+Content: The dataset features reviews of fine foods sold on Amazon, as well as reviews from various other Amazon categories.
+Scope: The data covers a significant period, providing a rich historical context for analysis.
+Attributes: Reviews include product identifiers, user identifiers, ratings, and textual feedback.
+Purpose
+The notebook demonstrates how to apply machine learning algorithms, specifically Random Forest and GBDT, to this dataset to derive meaningful insights and predictions. The analysis showcases:
 
-It also includes reviews from all other Amazon categories. The dataset can be downloaded from the following kaggle competition:
-https://www.kaggle.com/snap/amazon-fine-food-reviews/data
+Feature Engineering: Methods used to preprocess and engineer features from the raw review text and metadata.
+Model Training: Techniques for training Random Forest and GBDT models on the dataset.
+Evaluation: Metrics and methods used to evaluate the performance of these models.
+Getting the Data
+The dataset is available for download from Kaggle. You can access it via the following link:
+
+Amazon Fine Food Reviews Dataset
+
+Feel free to explore, experiment, and build upon this analysis!
